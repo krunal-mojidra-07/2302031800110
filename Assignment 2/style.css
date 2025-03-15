@@ -1,0 +1,1202 @@
+.AI-art-critique {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: #ffffff;
+  }
+  
+  .AI-art-critique .type-header-with {
+    display: flex;
+    width: 1280px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 8;
+    background-color: #e1eadc;
+  }
+  
+  .AI-art-critique .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0px 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .AI-art-critique .img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .AI-art-critique .brand-name {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #40513b;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .AI-art-critique .input-form {
+    align-items: center;
+    gap: 4px;
+    padding: 8px;
+    display: flex;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-color: #e1eadc;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #79ac7f;
+  }
+  
+  .AI-art-critique .text-container {
+    display: flex;
+    padding: 0px 4px;
+    flex: 1;
+    flex-grow: 1;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .AI-art-critique .placeholder-text {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #6c8f6f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
+  .AI-art-critique .nav-links {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .AI-art-critique .nav-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0px 16px;
+    position: relative;
+    align-self: stretch;
+    flex: 0 0 auto;
+  }
+  
+  .AI-art-critique .nav-label {
+    position: relative;
+    width: fit-content;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #40513b;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 19.2px;
+    white-space: nowrap;
+  }
+  
+  .AI-art-critique .small-icon-icon {
+    position: relative;
+    width: 12px;
+    height: 12px;
+  }
+  
+  .AI-art-critique .button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 12px 20px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #805bce;
+    border-radius: 8px;
+  }
+  
+  .AI-art-critique .CTA-wrapper {
+    display: inline-flex;
+    justify-content: center;
+    padding: 0px 4px;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .AI-art-critique .CTA {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 19.2px;
+    white-space: nowrap;
+  }
+  
+  .AI-art-critique .type-vertical-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 152px 16px 120px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    z-index: 7;
+    background-color: #44573f;
+  }
+  
+  .AI-art-critique .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .AI-art-critique .image-lummi {
+    position: relative;
+    flex: 1;
+    max-width: 604px;
+    flex-grow: 1;
+    height: 344px;
+    object-fit: cover;
+  }
+  
+  .AI-art-critique .copy-component {
+    max-width: 840px;
+    align-items: center;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+  }
+  
+  .AI-art-critique .heading-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .AI-art-critique .heading {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Playfair Display-Black", Helvetica;
+    font-weight: 900;
+    color: #eaf1e2;
+    font-size: 72px;
+    text-align: center;
+    letter-spacing: -0.72px;
+    line-height: 77.8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-lineclamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+  .AI-art-critique .subheading {
+    color: #9dc08b;
+    text-align: center;
+    position: relative;
+    align-self: stretch;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 30.8px;
+  }
+  
+  .AI-art-critique .CTA-button {
+    display: flex;
+    max-width: 360px;
+    height: 57px;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 16px 24px;
+    position: relative;
+    width: 100%;
+    background-color: #805bce;
+    border-radius: 8px;
+  }
+  
+  .AI-art-critique .div-wrapper {
+    display: inline-flex;
+    justify-content: center;
+    padding: 4px;
+    flex: 0 0 auto;
+    margin-top: -5.00px;
+    margin-bottom: -5.00px;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .AI-art-critique .text-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 27px;
+    white-space: nowrap;
+  }
+  
+  .AI-art-critique .type-title-with {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 120px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    z-index: 6;
+    background-color: #e1eadc;
+  }
+  
+  .AI-art-critique .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+    padding: 0px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .AI-art-critique .heading-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .AI-art-critique .div {
+    max-width: 560px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .AI-art-critique .subtitle {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #a479fc;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 27px;
+  }
+  
+  .AI-art-critique .heading-2 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #40513b;
+    font-size: 51px;
+    text-align: center;
+    letter-spacing: -1.02px;
+    line-height: 61.2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-lineclamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+  .AI-art-critique .text {
+    position: relative;
+    align-self: stretch;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #6c8f6f;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 27px;
+  }
+  
+  .AI-art-critique .feature-grid {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px 40px;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .AI-art-critique .feature {
+    display: flex;
+    flex-direction: column;
+    min-width: 272px;
+    max-width: 400px;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .AI-art-critique .icon-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .AI-art-critique .bg {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 0;
+    left: 0;
+    background-color: #ccbbf0;
+    border-radius: 24px;
+    opacity: 0.5;
+  }
+  
+  .AI-art-critique .text-container-2 {
+    align-items: center;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .AI-art-critique .feature-title {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #40513b;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 27px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-lineclamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  
+  .AI-art-critique .feature-description {
+    position: relative;
+    align-self: stretch;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #6c8f6f;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-lineclamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+  .AI-art-critique .property-big {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 96px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    z-index: 5;
+    background-color: #e1eadc;
+  }
+  
+  .AI-art-critique .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .AI-art-critique .heading-3 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Playfair Display-Black", Helvetica;
+    font-weight: 900;
+    color: #40513b;
+    font-size: 72px;
+    letter-spacing: -0.72px;
+    line-height: 77.8px;
+  }
+  
+  .AI-art-critique .copy-component-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px 40px;
+    padding: 32px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #79ac7f;
+  }
+  
+  .AI-art-critique .heading-4 {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: "Playfair Display-Black", Helvetica;
+    font-weight: 900;
+    color: #9368ec;
+    font-size: 108px;
+    letter-spacing: -1.08px;
+    line-height: 118.8px;
+  }
+  
+  .AI-art-critique .item-text {
+    display: flex;
+    flex-direction: column;
+    min-width: 220px;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .AI-art-critique .subheading-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #40513b;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-lineclamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  
+  .AI-art-critique .p {
+    color: #6c8f6f;
+    position: relative;
+    align-self: stretch;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 30.8px;
+  }
+  
+  .AI-art-critique .type-two-column-big {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 48px 48px;
+    padding: 80px 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    z-index: 4;
+    background-color: #44573f;
+  }
+  
+  .AI-art-critique .mission-image-lummi {
+    position: relative;
+    flex: 1;
+    min-width: 280px;
+    max-width: 600px;
+    flex-grow: 1;
+    height: 619px;
+    border-radius: 48px;
+    background-image: url(./img/mission-image-lummi.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .AI-art-critique .text-content {
+    min-width: 280px;
+    max-width: 600px;
+    align-items: flex-start;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .AI-art-critique .benefit-heading {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Playfair Display-Black", Helvetica;
+    font-weight: 900;
+    color: #805bce;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 46.8px;
+  }
+  
+  .AI-art-critique .description {
+    position: relative;
+    align-self: stretch;
+    font-family: "Playfair Display-Black", Helvetica;
+    font-weight: 900;
+    color: #eaf1e2;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 46.8px;
+  }
+  
+  .AI-art-critique .property-company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 80px 64px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    z-index: 3;
+    background-color: #e1eadc;
+  }
+  
+  .AI-art-critique .content-2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px 80px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .AI-art-critique .company-logo {
+    position: relative;
+    width: 135px;
+    height: 48px;
+  }
+  
+  .AI-art-critique .company-logo-2 {
+    width: 132px;
+    position: relative;
+    height: 48px;
+  }
+  
+  .AI-art-critique .company-logo-3 {
+    width: 168px;
+    position: relative;
+    height: 48px;
+  }
+  
+  .AI-art-critique .company-logo-4 {
+    width: 129px;
+    position: relative;
+    height: 48px;
+  }
+  
+  .AI-art-critique .company-logo-5 {
+    width: 140px;
+    position: relative;
+    height: 48px;
+  }
+  
+  .AI-art-critique .property-long-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    padding: 96px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    z-index: 2;
+    background-color: #e1eadc;
+  }
+  
+  .AI-art-critique .container-2 {
+    flex-direction: column;
+    max-width: 1024px;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .AI-art-critique .text-content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .AI-art-critique .copy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .AI-art-critique .heading-5 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Playfair Display-Black", Helvetica;
+    font-weight: 900;
+    color: #40513b;
+    font-size: 72px;
+    text-align: center;
+    letter-spacing: -0.72px;
+    line-height: 77.8px;
+  }
+  
+  .AI-art-critique .description-2 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #40513b;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 30.8px;
+  }
+  
+  .AI-art-critique .input {
+    display: flex;
+    flex-direction: column;
+    min-width: 230px;
+    max-width: 520px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4px;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .AI-art-critique .label {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #40513b;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+  }
+  
+  .AI-art-critique .text-container-wrapper {
+    height: 56px;
+    align-items: center;
+    gap: 8px;
+    padding: 16px;
+    align-self: stretch;
+    background-color: #e1eadc;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #79ac7f;
+    display: flex;
+    position: relative;
+    width: 100%;
+  }
+  
+  .AI-art-critique .placeholder-text-wrapper {
+    display: flex;
+    width: 171px;
+    padding: 0px 4px;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .AI-art-critique .placeholder-text-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #6c8f6f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-lineclamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  
+  .AI-art-critique .input-2 {
+    flex-direction: column;
+    min-width: 230px;
+    max-width: 520px;
+    height: 200px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4px;
+    display: flex;
+    position: relative;
+    width: 100%;
+  }
+  
+  .AI-art-critique .input-form-2 {
+    align-items: flex-start;
+    gap: 8px;
+    padding: 16px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    flex-grow: 1;
+    background-color: #e1eadc;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #79ac7f;
+  }
+  
+  .AI-art-critique .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    height: 53px;
+    justify-content: center;
+    gap: 4px;
+    padding: 16px 24px;
+    background-color: #805bce;
+    border-radius: 8px;
+    align-items: center;
+    position: relative;
+  }
+  
+  .AI-art-critique .text-container-3 {
+    display: inline-flex;
+    justify-content: center;
+    padding: 4px;
+    flex: 0 0 auto;
+    margin-top: -4.50px;
+    margin-bottom: -4.50px;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .AI-art-critique .CTA-2 {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }
+  
+  .AI-art-critique .type-single-row-CTA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    padding: 120px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    z-index: 1;
+    background-color: #e1eadc;
+  }
+  
+  .AI-art-critique .container-3 {
+    flex-wrap: wrap;
+    max-width: 1200px;
+    gap: 48px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .AI-art-critique .copy-component-3 {
+    min-width: 304px;
+    max-width: 720px;
+    align-items: flex-start;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+  }
+  
+  .AI-art-critique .heading-text-2 {
+    gap: 16px;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .AI-art-critique .heading-6 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Playfair Display-Black", Helvetica;
+    font-weight: 900;
+    color: #40513b;
+    font-size: 56px;
+    letter-spacing: 0;
+    line-height: 67.2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-lineclamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+  .AI-art-critique .button-combo {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 680px;
+    gap: 16px 16px;
+    width: 100%;
+    flex: 0 0 auto;
+    align-items: center;
+    position: relative;
+  }
+  
+  .AI-art-critique .CTA-button-2 {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    min-width: 140px;
+    height: 53px;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 16px 24px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #805bce;
+    border-radius: 8px;
+  }
+  
+  .AI-art-critique .text-container-4 {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    padding: 4px;
+    flex: 0 0 auto;
+    margin-top: -4.50px;
+    margin-bottom: -4.50px;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .AI-art-critique .secondary-button {
+    display: flex;
+    min-width: 140px;
+    height: 53px;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 16px 24px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #6c8265;
+  }
+  
+  .AI-art-critique .text-container-5 {
+    display: inline-flex;
+    justify-content: center;
+    padding: 0px 4px;
+    flex: 0 0 auto;
+    margin-top: -0.50px;
+    margin-bottom: -0.50px;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .AI-art-critique .CTA-3 {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #40513b;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }
+  
+  .AI-art-critique .image-lummi-2 {
+    position: relative;
+    flex: 1;
+    min-width: 280px;
+    flex-grow: 1;
+    max-height: 520px;
+    height: 412px;
+    border-radius: 48px;
+    background-image: url(./img/image-lummi.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .AI-art-critique .type-centered-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 80px 64px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    z-index: 0;
+    background-color: #e1eadc;
+  }
+  
+  .AI-art-critique .content-3 {
+    gap: 32px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .AI-art-critique .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .AI-art-critique .brand-name-2 {
+    position: relative;
+    align-self: stretch;
+    height: 27px;
+    margin-top: -1.00px;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #40513b;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+    white-space: nowrap;
+  }
+  
+  .AI-art-critique .links {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .AI-art-critique .link {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #40513b;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+    white-space: nowrap;
+  }
+  
+  .AI-art-critique .social-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .AI-art-critique .credits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .AI-art-critique .divider {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    background-color: #40513b;
+  }
+  
+  .AI-art-critique .div-2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .AI-art-critique .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Source Sans Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #40513b;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }
